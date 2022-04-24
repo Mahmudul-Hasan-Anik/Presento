@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="splide-sky-blue.min.css">
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+    <nav class="pink z-depth-3">
+        <div class="container">
+            <ul id="dropdownmenu" class="dropdown-content pink">
+                <li><a href="#" class="white-text">one</a></li>
+                <li><a href="#" class="white-text">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#" class="white-text">three</a></li>
+              </ul>
+
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Presento.</a>
+                <ul class="right hide-on-med-and-down right ">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >About</a></li>
+                    <li><a href="#" >Service</a></li>
+                    <li><a href="#" >Portfolio</a></li>
+                    <li><a href="#" >Team</a></li>
+                    <li><a href="#" >Blog</a></li>
+                    <li><a href="#" class="dropdown-trigger out" data-target="dropdownmenu">More <i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#" >Contact</a></li>
+                    <li><a href="#" type="button" class="btn red accent-2 waves-effect waves-light">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </nav>
+</div>
+    <!-- <nav> navbar content here  </nav> -->
+
+    <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="./img/portfolio/portfolio-9.jpg">
+        </div>
+        <h2 class="pink-text ">Presento.</h2>
+      </div></li>
+      <li><a href="#" >Home</a></li>
+      <li><a href="#" >About</a></li>
+      <li><a href="#" >Service</a></li>
+      <li><a href="#" >Portfolio</a></li>
+      <li><a href="#" >Team</a></li>
+      <li><a href="#" >Blog</a></li>
+      <li><a href="#" >Contact</a></li>
+      <li><a href="#" type="button" class="btn red accent-2 waves-effect waves-light">Get Started</a></li>
+    </ul>
+   
+<!-- Banner -->
+<section class="banner ">
+    <div class="container white-text">
+        <h1 class="">Better digital experience with Presento</h1>
+        <p>We are team of talented designers making websites with Bootstrap</p>
+        <button type="submit" class="red accent-2 waves-effect waves-light btn-large">Get Started</button>
+    </div>  
+</section>
+
+<!-- Image slide -->
+<section class="slideS hide-on-med-and-down red lighten-5">
+    <div class="container">
+        <div class="splide" data-splide='{"type":"loop","perPage":3}'>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide "><img src="./img/clients/client-8.png" alt=""></li>
+                    <li class="splide__slide"><img src="./img/clients/client-7.png" alt=""></li>
+                    <li class="splide__slide"><img src="./img/clients/client-6.png" alt=""></li>
+                    <li class="splide__slide "><img src="./img/clients/client-5.png" alt=""></li>
+                    <li class="splide__slide"><img src="./img/clients/client-4.png" alt=""></li>
+                    <li class="splide__slide"><img src="./img/clients/client-3.png" alt=""></li>
+                    <li class="splide__slide "><img src="./img/clients/client-2.png" alt=""></li>
+                    <li class="splide__slide"><img src="./img/clients/client-1.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Us -->
+<section class="about black">
+    <div class="container">
+        <div class="row white-text">
+            <div class="col l6 m12 s12">
+                <h2>Voluptatem dignissimos provident quasi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                <button class="btn-large red accent-2 waves-effect waves-light">About Us <i class="material-icons right ">keyboard_arrow_right</i></button>
+            </div>
+            <div class="col l6 m12 s12">
+                <div class="row">
+                    <div class="col l6 m12 s12">
+                        <i class="material-icons red-text accent-2 medium">assignment</i>
+                     <h4>Corporis voluptates sit</h4>
+                     <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    </div>
+                    <div class="col l6 m12 s12">
+                        <i class="material-icons red-text accent-2 medium">cloud_done</i>
+                     <h4>Corporis voluptates sit</h4>
+                     <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    </div>
+                    <div class="col l6 m12 s12 ">
+                        <i class="material-icons red-text accent-2 medium">collections</i>
+                     <h4>Labore consequatur</h4>
+                     <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    </div>
+                    <div class="col l6 m12 s12">
+                        <i class="material-icons red-text accent-2 medium">verified_user</i>
+                     <h4>Beatae veritatis</h4>
+                     <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Activities -->
+<section class="activities">
+    <div class="container">
+        <div class="row">
+            <div class="col l3 m6 s12 center">
+            <div class="card-panel z-depth-3">
+                <h1>232</h1>
+              <p>Happy Clients</p>
+            </div>
+              
+            </div>
+            <div class="col l3 m6 s12  center">
+              
+              <div class="card-panel z-depth-3">
+                <h1>521</h1>
+                <p>Projects</p>
+            </div>
+            </div>
+            <div class="col l3 m6 s12 center">
+              <div class="card-panel z-depth-3">
+                <h1>1463</h1>
+                <p>Hours Of Support</p>
+            </div>
+            </div>
+            <div class="col l3 m6 s12  center ">
+              <div class="card-panel z-depth-3">
+                <h1>15</h1>
+                <p>Hard Workers</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- cards -->
+<section class="cards">
+    <div class="container">
+        <div class="row ">
+          <ul class="cardDesign">
+            <li class="col tab l3 m6 s12 tab">
+                <p class="card-panel red accent-2 hoverable">
+                    <a href="#one" class="white-text ">  
+                        <i class="material-icons left medium">wifi_tethering</i>
+                        Modi sit est dela pireda nest
+                    </a>
+                </p>
+            </li>
+            <li class="col tab l3 m6 s12">
+                <p class="card-panel hoverable">
+                    <a href="#" class="black-text">  
+                        <i class="material-icons left medium red-text accent-2 ">streetview</i>
+                        Modi sit est dela pireda nest
+                    </a>
+                </p>
+            </li>
+            <li class="col tab l3 m6 s12">
+                <p class="card-panel hoverable">
+                    <a href="#" class="black-text">
+                        <i class="material-icons left medium red-text accent-2">brightness_low</i>
+                        Pariatur explica nitro dela
+                    </a>
+                </p>
+            </li>
+            <li class="col tab l3 m6 s12">
+                <p class="card-panel hoverable">
+                   <a href="#" class="black-text">
+                    <i class="material-icons left medium red-text accent-2">account_balance</i>
+                    Modi sit est dela pireda nest
+                   </a>
+                </p>
+            </li>
+        </ul> 
+
+        <div id="one" class="col s12">
+            <div class="row">
+                <div class="col l6 m12 s12" id="one">
+                    <h5>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p><i class="material-icons red-text left">done_all</i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p><i class="material-icons red-text left">done_all</i> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                    <p><i class="material-icons red-text left">done_all</i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col l6 m12 s12">
+                    <img src="./img/tabs-1.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- service -->
+<section class="service black white-text">
+    <div class="container">
+        <h2 class="center">SERVICES</h2>
+        <P class="center">
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+        </P>
+
+        <div class="row">
+            <div class="col l6 m12 s12">
+                <div class="card-panel hoverable grey darken-4  white-text">
+                    <i class="material-icons left medium red-text accent-2 ">business_center</i>
+                    <h5 >Lorem Ipsum</h5>
+                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> 
+                </div>
+                <div class="card-panel hoverable grey darken-4  white-text">
+                    <i class="material-icons left medium red-text accent-2 ">assessment</i>
+                    <h5 >Sed ut perspiciatis</h5>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> 
+                </div>
+                <div class="card-panel hoverable grey darken-4  white-text">
+                    <i class="material-icons left medium red-text accent-2 ">wb_sunny</i>
+                    <h5 >Magni Dolore</h5>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> 
+                </div>
+            </div>
+
+            <div class="col l6 m12 s12">
+                <div class="card-panel hoverable grey darken-4  white-text">
+                    <i class="material-icons left medium red-text accent-2 ">center_focus_strong</i>
+                    <h5 >Dolor Sitema</h5>
+                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> 
+                </div>
+                <div class="card-panel hoverable grey darken-4  white-text">
+                    <i class="material-icons left medium red-text accent-2 ">filter_drama</i>
+                    <h5 >Nemo Enim</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                </div>
+                <div class="card-panel hoverable grey darken-4  white-text">
+                    <i class="material-icons left medium red-text accent-2 ">fingerprint</i>
+                    <h5 >Eiusmod Tempor</h5>
+                    <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PORTFOLIO -->
+<section class="porthfolio">
+    <div class="container">
+        <h2 class="center">PORTFOLIO</h2>
+        <p class="center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+        <ul>
+            <li class="red white-text">ALL</li>
+            <li>APP</li>
+            <li>CARD</li>
+            <li>WEB</li>
+        </ul>
+ <div class="row">
+    <div class="col l4 m6 s12">
+                <a href="#pictureOne" class="modal-trigger"> <img src="./img/portfolio/portfolio-1.jpg" alt="" width="100%">  </a>
+    
+                <div id="pictureOne" class="modal ">
+                    <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+                    <img src="./img/portfolio/portfolio-1.jpg" alt="" width="100%" >  
+                </div>
+     </div>
+  
+    <div class="col l4 m6 s12">
+        <a href="#pictureTwo" class="modal-trigger"><img src="./img/portfolio/portfolio-2.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureTwo" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-2.jpg" alt="" width="100%">  
+        </div>
+    </div>
+    <div class="col l4 m6 s12">
+        <a href="#pictureThree" class="modal-trigger"><img src="./img/portfolio/portfolio-3.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureThree" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-3.jpg" alt="" width="100%">  
+        </div>
+    </div>
+    <div class="col l4 m6 s12">
+        <a href="#pictureFour" class="modal-trigger"><img src="./img/portfolio/portfolio-4.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureFour" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-4.jpg" alt="" width="100%">  
+        </div>
+    </div>
+    <div class="col l4 m6 s12">
+        <a href="#pictureFive" class="modal-trigger"><img src="./img/portfolio/portfolio-5.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureFive" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-5.jpg" alt="" width="100%">  
+        </div>
+    </div>
+    <div class="col l4 m6 s12">
+        <a href="#pictureSix" class="modal-trigger"><img src="./img/portfolio/portfolio-6.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureSix" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-6.jpg" alt="" width="100%">  
+        </div>
+    </div>
+    <div class="col l4 m6 s12">
+        <a href="#pictureSeven" class="modal-trigger"><img src="./img/portfolio/portfolio-7.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureSeven" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-7.jpg" alt="" width="100%">  
+        </div>
+    </div>
+    <div class="col l4 m6 s12">
+        <a href="#pictureEight" class="modal-trigger"><img src="./img/portfolio/portfolio-8.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureEight" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-8.jpg" alt="" width="100%">  
+        </div>
+    </div>
+    <div class="col l4 m6 s12">
+        <a href="#pictureNine" class="modal-trigger"><img src="./img/portfolio/portfolio-9.jpg" alt="" width="100%"></a>
+    
+        <div id="pictureNine" class="modal">
+            <a class="modal-close btn-flat right"><i class="material-icons">close</i></a>
+            <img src="./img/portfolio/portfolio-9.jpg" alt="" width="100%">  
+        </div>
+    </div> 
+ </div>
+</div>
+</section>
+<section class="TESTIMONIALS">
+    <div class="container">
+        <h2 class="center">TESTIMONIALS</h2>
+        <p class="center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+
+        <div class="row">
+            <!-- One -->
+            <div class="col l4 s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./img/team/team-1.jpg">
+                  <span class="card-title">Walter White</span>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum quo voluptas sequi fugiat quam cupiditate culpa quae et quis!</p>
+                </div>
+              </div>
+            </div>
+            <!-- Two -->
+            <div class="col l4 s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./img/team/team-2.jpg">
+                  <span class="card-title">Sarah Jhonson</span>
+                </div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum quo voluptas sequi fugiat quam cupiditate culpa quae et quis!</p>
+                </div>
+              </div>
+            </div>
+            <!-- Three -->
+            <div class="col l4 s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./img/team/team-3.jpg">
+                  <span class="card-title">William Anderson</span>
+                </div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum quo voluptas sequi fugiat quam cupiditate culpa quae et quis!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+<!-- PRICING -->
+<section class="PRICING black white-text">
+    <div class="container">
+        <h2 class="center">PRICING</h2>
+    <p class="center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+
+    <div class="row">
+        <div class="col l4 m12 s12 ">
+           <div class="card-panel grey darken-4 center">
+            <h6>FREE</h6>
+            <h2><sup>$</sup>0 /<sub>month</sub></h2>
+            <p>Aida dere</p>
+            <p>Nec feugiat nisl</p>
+            <p>Nulla at volutpat dola</p>
+            <p><s>Pharetra massa</s></p>
+            <p><s>Massa ultricies m</s></p>
+            <button class="btn grey darken-3" type="submit">Buy Now</button>
+           </div>
+        </div>
+        <div class="col l4 m12 s12">
+            <div class="card-panel red darken-1 center">
+                <h6>BUSINESS</h6>
+                <h2><sup>$</sup>19 /<sub>month</sub></h2>
+                <p>Aida dere</p>
+                <p>Nec feugiat nisl</p>
+                <p>Nulla at volutpat dola</p>
+                <p>Pharetra massa</p>
+                <p><s>Massa ultricies m</s></p>
+                <button class="btn red darken-2" type="submit">Buy Now</button>
+            </div>
+        </div>
+        <div class="col l4 m12 s12">
+            <div class="card-panel grey darken-4 center">
+                <h6>DEVELOPER</h6>
+                <h2><sup>$</sup>29 /<sub>month</sub></h2>
+                <p>Aida dere</p>
+                <p>Nec feugiat nisl</p>
+                <p>Nulla at volutpat dola</p>
+                <p>Pharetra massa</p>
+                <p>Massa ultricies mi</p>
+                <button class="btn grey darken-3" type="submit">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- FAQ -->
+<section class="faq">
+    <div class="container">
+        <h2 class="center">FREQUENTLY ASKED QUESTIONS</h2>
+
+        <ul class="collapsible">
+            <li>
+              <div class="collapsible-header">Non consectetur a erat nam at lectus urna duis?</div>
+              <div class="collapsible-body">
+                  <span class="red-text ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</div>
+              <div class="collapsible-body">
+                <span class="red-text ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</div>
+              <div class="collapsible-body">
+                <span class="red-text ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">Non consectetur a erat nam at lectus urna duis?</div>
+              <div class="collapsible-body">
+                  <span class="red-text ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</div>
+              <div class="collapsible-body">
+                <span class="red-text ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</div>
+              <div class="collapsible-body">
+                <span class="red-text ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+            </li>
+          </ul>
+    </div>
+</section>
+<!-- TEAM SECTION -->
+<section class="team black white-text">
+    <div class="container">
+        <h2 class="center">TEAM</h2>
+        <p class="center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+
+        <div class="row">
+            <!-- ONE -->
+            <div class="col l3 m6 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./img/team/team-1.jpg">
+                    </div>
+
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Walter White<i class="material-icons right">more_vert</i></span>
+                      <p class="grey-text text-darken-4">Executive Officer</p>
+                    </div>
+
+                    <div class="card-reveal center red lighten-5">
+                      <p class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>
+                        <br>Walter White</p>
+                      <p class="grey-text text-darken-4">Chief Executive Officer</p>
+                      <p>
+                        <ul>
+                            <li><a href="#"><i class="material-icons black-text">facebook</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">telegram</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">mail</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">cloud_done</i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <!-- TWO -->
+            <div class="col l3 m6 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./img/team/team-2.jpg">
+                    </div>
+
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Sarah Jhonson
+                          <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p class="grey-text text-darken-4">Product Manager</p>
+                    </div>
+
+                    <div class="card-reveal center red lighten-5">
+                      <p class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>
+                        <br>Sarah Jhonson</p>
+                      <p class="grey-text text-darken-4">Product Manager</p>
+                        
+                     
+                        <ul>
+                            <li><a href="#"><i class="material-icons black-text">facebook</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">telegram</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">mail</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">cloud_done</i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <!-- three -->
+            <div class="col l3 m6 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./img/team/team-3.jpg">
+                    </div>
+
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">William Anders<i class="material-icons right">more_vert</i></span>
+                      <p class="grey-text text-darken-4">CTO</p>
+                    </div>
+
+                    <div class="card-reveal center red lighten-5">
+                      <p class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>
+                        <br>William Anderson</p>
+                      <p class="grey-text text-darken-4">CTO</p>
+                      <p>
+                        <ul>
+                            <li><a href="#"><i class="material-icons black-text">facebook</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">telegram</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">mail</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">cloud_done</i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <!-- four -->
+            <div class="col l3 m6 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./img/team/team-4.jpg">
+                    </div>
+
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Amanda Jepson<i class="material-icons right">more_vert</i></span>
+                      <p class="grey-text text-darken-4">Accountant</p>
+                    </div>
+
+                    <div class="card-reveal center red lighten-5">
+                      <p class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>
+                        <br>Amanda Jepson</p>
+                      <p class="grey-text text-darken-4">Accountant</p>
+                      <p>
+                        <ul>
+                            <li><a href="#"><i class="material-icons black-text">facebook</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">telegram</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">mail</i></a></li>
+                            <li><a href="#"><i class="material-icons black-text">cloud_done</i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+        <h2 class="center">CONTACT</h2>
+        <p class="center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+
+        <div class="row">
+            <div class="col l6 m12 s12 ">
+                <div class="card-panel center z-depth-2 hoverable">
+                    <a class="btn-floating btn-large outline-red white">
+                        <i class="large material-icons red-text ">place</i>
+                      </a>
+                    <h5>Our Address</h5>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+
+                <div class="row" id="Contact">
+                    <div class="col l6 m6 s12">
+                        <div class="card-panel center z-depth-2 hoverable">
+                            <a class="btn-floating btn-large  white">
+                                <i class="large material-icons red-text ">mail_outline</i>
+                            </a>
+                            <h5>Email Us</h5>
+                            <P>info@example.com </p>
+                            <p> contact@example.com</P>
+                        </div>
+                    </div>
+                    <div class="col l6 m6 s12">
+                        <div class="card-panel center z-depth-2 hoverable">
+                            <a class="btn-floating btn-large  white">
+                                <i class="large material-icons red-text ">phone_in_talk</i>
+                            </a>
+                            <h5>Call Us</h5>
+                            <P>+1 5589 55488 55</p>
+                            <p> +1 6678 254445 41</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6 m12 s12">
+                <div class="card-panel">
+                    <input type="text" placeholder="Your Name">
+                    <input type="Email" placeholder="Your Email">
+                    <select class="red">
+                        <option value="0">Select Your Subject</option>
+                        <option value="0">Web Design</option>
+                        <option value="0">Web Application</option>
+                        <option value="0">Web Development</option>
+                        <option value="0">Grapics Design</option>
+                    </select>
+                    <textarea placeholder="Write Your Massage" cols="100" rows="10"></textarea>
+                    <button type="submit" class="btn-large red accent-2">SEND MASSAGE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER SECTION -->
+<section class="grey darken-4 white-text footer-head">
+    <div class="container">
+        <div class="row">
+            <div class="col l3 m6 s12">
+                <h5>Presento.</h5>
+                <p>
+                    A108 Adam Street <br>
+                    New York, NY 535022<br>
+                    United States<br><br>
+                    Phone: +1 5589 55488 55<br>
+                    Email: info@example.com
+                </p>
+            </div>
+            <div class="col l3 m6 s12">
+                <h6>Useful Links</h6>
+                <div class="design"></div>
+                <div class="flexable">
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Home</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>About us</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Services</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Terms of service</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Privacy policy</a>
+                </div>
+            </div>
+
+            <div class="col l3 m6 s12">
+                <h6>Our Services</h6>
+                <div class="design"></div>
+                <div class="flexable">
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Web Design</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Web Development</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Product management</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Marketing</a>
+                    <a href="#" class="white-text"><i class="material-icons left">keyboard_arrow_right</i>Grapics Design</a>
+                </div>
+            </div>
+            <div class="col l3 m6 s12">
+                <h6>Join Our Newsletter</h6>
+                <div class="design"></div>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <input type="text" class="white-text"> <button class="btn-small red accent-2">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<footer class="black white-text">
+    <div class="container">
+        <p>&copy;Copyright <b>Presento.</b> All Rights Reserved</p>
+        <p>Designed by <span class="red-text">Mahmudul Hasan</span></p>
+    </div>
+</footer>
+
+
+<!-- fixed-action-btn -->
+<div class="fixed-action-btn">
+    <a class="btn-floating  red">
+      <i class="large material-icons">chat</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">facebook</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">telegram</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">mail</i></a></li>
+    </ul>
+</div>
+
+<script src="./app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script> 
+    M.AutoInit();
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+</body>
+</html>
+
